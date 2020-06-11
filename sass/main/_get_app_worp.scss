@@ -1,0 +1,51 @@
+.get_worp {
+    background-image   : url(../imgs/banner_finel_666666666.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    padding:  80px 0 160px 0;
+    .hed_getup {
+        font-size: 36px;
+        color: #fff;
+        margin: 100px 0 20px 0;
+        font-weight: 700;
+    }
+    .get_pra {
+        font-size: 16px;
+        color: #fff;
+        margin-bottom: 80px;
+        max-width: 570px;
+    }
+    .app-btn {
+        display: inline-block;
+        width: 200px;
+        height: 60px;
+        border: 1px solid #fff;
+        border-radius: 5px;
+        text-align: center;
+        line-height: 57px;
+        -webkit-transition: all 0.3s linear;
+        -o-transition: all 0.3s linear;
+        transition: all 0.3s linear;
+        background: #fff;
+        overflow: hidden;
+        margin-right: 20px;
+        a.app-btn img + img {
+            display: none;
+        }
+        &:hover img {
+            display: none;
+            &+ img {
+            display: inline-block;
+            }
+        }  
+    }
+    .appl_img {
+            margin-left: -170px;
+        .apimg {
+            width: 736px;
+            margin: 0px 0 -600px 0;
+        }
+    }
+}

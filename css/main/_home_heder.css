@@ -1,0 +1,61 @@
+.header {
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  z-index: 1080; }
+  .header .navbar .collapse .navbar-nav .nav-item .nav-link {
+    position: relative;
+    font-size: 14px;
+    margin-right: 55px;
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+    padding: 7px 0px 0px 0px;
+    color: #d0c4c4;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s; }
+    .header .navbar .collapse .navbar-nav .nav-item .nav-link::before {
+      position: absolute;
+      content: "";
+      bottom: 0;
+      right: 0;
+      width: 0%;
+      height: 1px;
+      background: #fff;
+      opacity: 0;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s; }
+    .header .navbar .collapse .navbar-nav .nav-item .nav-link.active, .header .navbar .collapse .navbar-nav .nav-item .nav-link:hover {
+      color: #fff; }
+      .header .navbar .collapse .navbar-nav .nav-item .nav-link.active::before, .header .navbar .collapse .navbar-nav .nav-item .nav-link:hover::before {
+        width: 100%;
+        right: auto;
+        left: 0;
+        opacity: 1; }
+  .header .navbar .collapse .navbar-nav .buttonhed {
+    color: #fff;
+    border-radius: 50px;
+    padding: 8px 45px;
+    font-size: 14px;
+    border: 1px solid #fff;
+    text-transform: capitalize; }
+    .header .navbar .collapse .navbar-nav .buttonhed:hover {
+      background: #fff;
+      color: #b72b58;
+      background: #fff;
+      -webkit-transform: rotate(1800deg);
+      -ms-transform: rotate(1800deg);
+      transform: rotate(1800deg);
+      -webkit-transition: all 1s ease 0s;
+      -o-transition: all 1s ease 0s;
+      transition: all 1s ease 0s; }
+
+.fixedMenu {
+  background: #b72b58;
+  padding: 15px 0; }

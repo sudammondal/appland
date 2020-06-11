@@ -1,0 +1,42 @@
+.cocal_icon_box {
+  margin: 75px 0; }
+  .cocal_icon_box .main_manu {
+    list-style: none;
+    text-align: center; }
+    .cocal_icon_box .main_manu .list_item {
+      display: inline-block;
+      width: 70px;
+      height: 70px;
+      background: #cacad6;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      border-radius: 100%;
+      margin: 30px 0;
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+      border: 1px solid #cacad6; }
+      .cocal_icon_box .main_manu .list_item a {
+        display: block;
+        font-size: 30px;
+        text-decoration: none;
+        color: #5d58f7; }
+        .cocal_icon_box .main_manu .list_item a i {
+          line-height: 70px; }
+      .cocal_icon_box .main_manu .list_item:hover {
+        -webkit-box-shadow: 0px 0px 15px 2px #b7a0a0;
+        box-shadow: 0px 0px 15px 2px #b7a0a0;
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        background: #5d58f7; }
+        .cocal_icon_box .main_manu .list_item:hover a {
+          color: #fff; }
+    .cocal_icon_box .main_manu .hcontk {
+      font-size: 20px;
+      font-weight: 600;
+      font-family: sans-serif; }
+    .cocal_icon_box .main_manu .pcontack {
+      font-size: 16px;
+      color: #807272; }

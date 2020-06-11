@@ -1,0 +1,79 @@
+footer {
+    background: #21212e;
+    padding: 30px 0;
+    border-top: 1px solid #dddddd1a;
+    .t_pra {
+        color : #7b7b8d;
+        .fot_drort {
+            color: #807cf9bd;
+        }
+        .fot_drort2 {
+            margin: 0 10px;
+
+        }
+    }
+    .main_list {
+        list-style: none;
+        .list_item {
+            display: inline-block;
+            padding-right: 35px;
+            color : #7b7b8d;
+            .list {
+                color: #fff;
+                text-decoration: none;
+                text-decoration: none;
+                text-transform: capitalize;
+                &:hover {
+                    color: #ddd;
+                }
+            } 
+        }
+    }
+}
+// error404 footer//@extend
+footer {
+    .ftr_lis {
+        .main_list {
+            list-style: none;
+            display: flex;
+            .list_item_ftr {
+                font-size: 16px;
+                text-transform: uppercase;
+                padding: 0px 15px;
+                border-right: 1px solid #b4b8c2;
+                .icon_text {
+                    text-decoration: none;
+                    color: #b4b8c2;
+                    &:hover {
+                    color: #4a80f9;
+                    }
+                } 
+                &:last-child {
+                    border-right: 1px solid transparent;
+                }
+            }
+        }
+        
+    }
+    .ftr_lis2 {
+        .main_list2 {
+            list-style: none;
+            display: flex;
+            .list_ftr {
+                font-size: 16px;
+                text-transform: uppercase;
+                margin: 0px 10px;
+                border-radius: 3px;
+                .icon {
+                    color: #ddd;
+                }
+                &:hover {
+                    transform: scale(1.2);
+                    .icon {
+                        color: #4a80f9; 
+                    } 
+                }
+            }
+        }
+    }
+}

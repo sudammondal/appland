@@ -1,0 +1,114 @@
+.banner_worp2 {
+    background-image   : url(../imgs/bg_hed.png);
+    background-repeat  : no-repeat;
+    background-position: center;
+    background-size    : cover;
+    min-height         : 725px;
+    // min-height         : 1025px;
+    .hd_banner {
+        .hedrtTex {
+            margin-top: 160px;
+            font-family: 'Quicksand', sans-serif;
+            color      : #282835;
+            font-size  : 60px;
+           
+        }
+        .praTex {
+            font-size  : 18px;
+            font-family: 'Quicksand', sans-serif;
+            color      : #797988;
+            margin     : 30px 0 60px 0;
+            max-width  : 490px;
+        }
+        .btn_btun {
+            display: inline-block;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: all 0.5s;
+            font-family: "Quicksand", sans-serif;
+            text-transform: capitalize;
+            margin-right: 40px;
+            box-shadow: none;
+            font-weight: 600;
+            color: #fff;
+            background: #5d58f7;
+            padding: 17px 50px;
+            &:hover {
+                background: transparent;
+                color     : #5d58f7;
+                box-shadow: 0px 0px 8px 6px #d3d8dc96;
+            }
+
+        }
+        .btn_btun2 { 
+            position: relative;
+            display        : inline-block;
+            text-decoration: none;
+            padding        : 0 5px 3px 5px;
+            font-size      : 16px;
+            transition     : all 0.5s;
+            border-bottom  : 1px solid transparent;
+            font-family    : 'Quicksand', sans-serif;
+            text-transform : capitalize;
+            box-shadow     : none;
+            font-weight    : 600;
+            color          : #797988;
+            &::before {
+                position: absolute;
+                content: "";
+                bottom: 0;
+                right: 0;
+                width: 0%;
+                height: 2px;
+                background: #5d58f7;
+                opacity: 0;
+                transition: all 0.5s;
+            }   
+            &:hover {
+                color: #5d58f7;
+                &::before {
+                    width: 100%;
+                    right: auto;
+                    left: 0;
+                    opacity: 1;
+                }
+            }
+        }
+
+    }
+    .banner_mobil {
+        position: relative;
+        .mobil_item {
+            position: absolute;
+            top: 100px;
+            .img_fast {
+                max-width:312px;
+                height: auto;
+            }
+        }
+        .seckend_itm {
+            position: absolute;
+            top: 120px;
+            left: 215px;
+            // .img_secknd {
+            //      max-width:300px;
+            // }
+        }
+        .thard {
+            position: absolute;
+            top: 345px;
+            left: -10px;
+            // .img_thard {
+            //     max-width:300px;
+            // }
+        }
+        .forth {
+            position: absolute;
+            top: 325px;
+            left: 245px;
+            // .img_forth {
+            //     max-width:300px;
+            // }
+        }
+    }
+}

@@ -1,0 +1,98 @@
+.appland_info {
+    background-color: #1f1f2a;
+    .aplien_item {
+        padding: 60px 0 60px 0;
+        .h_info {
+            color: #fff;
+            font-size: 20px;
+            font-family:'Quicksand', ;
+            margin-bottom: 42px;
+        }
+        .h_logo {
+            margin-bottom: 35px;
+        }
+        .p_aplin {
+            color: #aeaeb8;
+            margin-bottom: 20px;
+            font-family: "Quicksand";
+            max-width: 287px;
+            font-size: 16px;
+        }
+        .icon_items {
+            display: flex;
+            padding-bottom: 22px;
+            margin-left: -5px;
+            i{
+                color: #b7aeae;
+                padding-right: 10px;
+                
+            }
+            .sdds{
+                padding-right: 10px;
+                color: #ddd;
+                transition: all 0.5s;
+                &:hover {
+                    color:#fff;
+                }
+                &:hover {
+                color:#fff;
+                transform: scale(1.4);
+                }
+            }
+            .icon_info {
+                .ttr {
+                    color: #637eec;
+                    &:hover {
+                        color:#fff;
+                    }
+                    
+                }
+            }
+            .icon_pra {
+                color: #aeaeb8;
+                margin: 0;
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                    &:hover {
+                    color:#ddd;
+                    }
+                }
+                
+            }
+            .icon_p {
+                color: #fff;
+                text-decoration: none;
+                &:hover {
+                color:#ddd;
+                }
+            }
+         
+                .ctm_cl {
+                    margin-right: -20px !important;
+                    .img_aplin {
+                        margin-bottom: 2px;
+                        .img_aplinss {
+                            height: 83px;
+                            margin: 5px;
+                            width: 100%;
+                            
+                        }
+                    }
+                   
+                }
+               
+            
+        }
+        .icon_pra {
+            margin: 10px 0 0px 5px;
+            color: #a58c8c;
+            .ins_tgrm {
+                color: #fff
+                    
+            }
+        }
+        
+    }
+}
+

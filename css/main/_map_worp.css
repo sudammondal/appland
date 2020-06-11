@@ -1,0 +1,78 @@
+.map_eorp {
+  background-image: url(../imgs/new-work-_map.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+  .map_eorp .world_mapimg {
+    height: 500px; }
+    .map_eorp .world_mapimg .icons {
+      width: 10px;
+      height: 10px;
+      background: #5d58f7;
+      border-radius: 50%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      position: relative; }
+      .map_eorp .world_mapimg .icons::before {
+        position: absolute;
+        content: "";
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        background: #5d58f7;
+        -webkit-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+        -webkit-animation: dot 2s linear infinite;
+        animation: dot 2s linear infinite;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%; }
+
+@-webkit-keyframes animate {
+  20% {
+    -webkit-box-shadow: 0px 0px 0px 5px rgba(93, 88, 247, 0.424), 0px 0px 0px 10px rgba(93, 88, 247, 0.424);
+    box-shadow: 0px 0px 0px 5px rgba(93, 88, 247, 0.424), 0px 0px 0px 10px rgba(93, 88, 247, 0.424); }
+  45% {
+    -webkit-box-shadow: 0px 0px 0px 15px rgba(93, 88, 247, 0.424), 0px 0px 0px 17px rgba(255, 255, 255, 0.678);
+    box-shadow: 0px 0px 0px 15px rgba(93, 88, 247, 0.424), 0px 0px 0px 17px rgba(255, 255, 255, 0.678); }
+  60% {
+    -webkit-box-shadow: 0px 0px 0px 20px rgba(93, 88, 247, 0.424), 0px 0px 0px 20px rgba(93, 88, 247, 0.424);
+    box-shadow: 0px 0px 0px 20px rgba(93, 88, 247, 0.424), 0px 0px 0px 20px rgba(93, 88, 247, 0.424); } }
+
+@keyframes animate {
+  20% {
+    -webkit-box-shadow: 0px 0px 0px 5px rgba(93, 88, 247, 0.424), 0px 0px 0px 10px rgba(93, 88, 247, 0.424);
+    box-shadow: 0px 0px 0px 5px rgba(93, 88, 247, 0.424), 0px 0px 0px 10px rgba(93, 88, 247, 0.424); }
+  45% {
+    -webkit-box-shadow: 0px 0px 0px 15px rgba(93, 88, 247, 0.424), 0px 0px 0px 17px rgba(255, 255, 255, 0.678);
+    box-shadow: 0px 0px 0px 15px rgba(93, 88, 247, 0.424), 0px 0px 0px 17px rgba(255, 255, 255, 0.678); }
+  60% {
+    -webkit-box-shadow: 0px 0px 0px 20px rgba(93, 88, 247, 0.424), 0px 0px 0px 20px rgba(93, 88, 247, 0.424);
+    box-shadow: 0px 0px 0px 20px rgba(93, 88, 247, 0.424), 0px 0px 0px 20px rgba(93, 88, 247, 0.424); } }
+
+@-webkit-keyframes dot {
+  0% {
+    opacity: 1;
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(93, 88, 247, 0.424), 0px 0px 0px 0px rgba(93, 88, 247, 0.424);
+    box-shadow: 0px 0px 0px 0px rgba(93, 88, 247, 0.424), 0px 0px 0px 0px rgba(93, 88, 247, 0.424); }
+  100% {
+    opacity: 0;
+    -webkit-box-shadow: 0px 0px 0px 20px rgba(93, 88, 247, 0.424), 0px 0px 0px 20px rgba(93, 88, 247, 0.424);
+    box-shadow: 0px 0px 0px 20px rgba(93, 88, 247, 0.424), 0px 0px 0px 20px rgba(93, 88, 247, 0.424); } }
+
+@keyframes dot {
+  0% {
+    opacity: 1;
+    -webkit-box-shadow: 0px 0px 0px 0px rgba(93, 88, 247, 0.424), 0px 0px 0px 0px rgba(93, 88, 247, 0.424);
+    box-shadow: 0px 0px 0px 0px rgba(93, 88, 247, 0.424), 0px 0px 0px 0px rgba(93, 88, 247, 0.424); }
+  100% {
+    opacity: 0;
+    -webkit-box-shadow: 0px 0px 0px 20px rgba(93, 88, 247, 0.424), 0px 0px 0px 20px rgba(93, 88, 247, 0.424);
+    box-shadow: 0px 0px 0px 20px rgba(93, 88, 247, 0.424), 0px 0px 0px 20px rgba(93, 88, 247, 0.424); } }

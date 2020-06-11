@@ -1,0 +1,117 @@
+.More_Awesome_Fature {
+    padding   : 80px 0 8px 0;
+    background: #f8f8ff;
+    position  : relative;
+    overflow: hidden;
+
+    .imgsarcel {
+        position: absolute;
+        top     : 175px;
+        right   : 0;
+    }
+
+    .bannrhd_fast {
+        font-size  : 36px;
+        font-weight: 600;
+    }
+
+    .bannepre_fast {
+        font-size: 16px;
+        color    : #8b8b98;
+        margin   : 15px 0 50px 0;
+    }
+
+    .more_icon_item {
+        margin-bottom: 115px;
+        .icon_items {
+            .list_item_cercl {
+            width        : 70px;
+            height       : 70px;
+            background   : blue;
+            border-radius: 100%;
+            margin       : 30px 0;
+            transition   : all 0.5s;
+            border       : 1px solid #cacad6;   
+            .icon_carcal {
+                font-size      : 30px;
+                text-decoration: none;
+                color          : #5d58f7;
+
+                .carel_fa {
+                    line-height    : 68px;
+                    align-items    : center;
+                    justify-content: center;
+                    display        : flex;
+                    color          : #fff;
+                }
+            }
+
+            &.list_item_cercl2 {
+                background: #5d58f7;
+            }
+
+            &.list_item_cercl3 {
+                background: #3ecbf8;
+            }
+
+            &.list_item_cercl4 {
+                background: #d56dfc;
+            }
+
+            &.list_item_cercl5 {
+                background: #24e271;
+            }
+        }
+        }
+        
+
+        .icon_hed {
+            font-size  : 20px;
+            font-weight: 600;
+            margin     : 0px 0 20px 0;
+        }
+
+        .icon_pra {
+            font-size: 16px;
+            color    : #8b8b98;
+            max-width: 265px;
+        }
+    }
+
+    .imgsid_mobil {
+        .imgdublmobl2 {
+            position: relative;
+
+            .pone_srcl {
+                position: absolute;
+                left   : -90px;
+                top     : 0;
+                .imgwid {
+                    max-width: 650px;
+                    transition: all 0.5s;
+                    animation: roundImg 50s linear infinite;
+                }
+            }
+
+            .pone_srcl2 {
+                position: relative;
+                bottom  : -90px;
+                left    : -70px;
+                .imgwid2 {
+                    max-width: 534px;
+                }
+            }
+        }
+    }
+}
+
+
+@keyframes roundImg {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

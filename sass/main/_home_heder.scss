@@ -1,0 +1,187 @@
+.header {
+    padding   : 20px 0;
+    position  : fixed;
+    top       : 0;
+    left      : 0;
+    width     : 100%;
+    transition: all 0.5s;
+    z-index   : 1080;
+
+    .navbar {
+        .imglogohed {
+            border       : 1px solid #fff;
+            padding      : 10px;
+            border-radius: 50px;
+            background   : #fff;
+            box-shadow   : 0px 0px 8px 6px #d3d8dc96;
+        }
+
+        .collapse {
+            .navbar-nav {
+                .nav-item {
+                    .nav-link {
+                        position       : relative;
+                        font-size      : 14px;
+                        margin-right   : 55px;
+                        border-bottom  : 1px solid transparent;
+                        text-decoration: none;
+                        padding        : 7px 0px 0px 0px;
+                        color          : #fff;
+                        transition     : all 0.5s;
+                        &::before {
+                            position  : absolute;
+                            content   : "";
+                            bottom    : 0;
+                            right     : 50%;
+                            width     : 0;
+                            height    : 1px;
+                            background: #fff;
+                            opacity   : 0;
+                            transition: all 0.5s;
+                        }
+
+                        &.active,
+                        &:hover {
+                            color: #fff;
+
+                            &::before {
+                                width  : 100%;
+                                right  : 0;
+                                opacity: 1;
+                            }
+                        }
+                    }
+
+                    
+                    position: relative;
+                    a {
+                        color: #00f;
+                        &:hover,
+                        &.active {
+                            color: #000000;
+                            background: none;
+
+                        }
+
+                    }
+                
+                    &:hover > {
+                        .navbar-nav {
+                            visibility: visible;
+                            top: 48px;
+                            opacity: 1;
+                            padding: 10px 10px;
+                        }
+                    }
+                    .navbar-nav {
+                        display: block;
+                        visibility: hidden;
+                        top: 58px;
+                        left: 0;
+                        opacity: 0;
+                        transition: all 0.5s;
+                        border-radius: 0;
+                        padding: 10px 10px;
+                        overflow: hidden;
+                        
+                        
+                        li {
+                            margin: 5px 0;
+                            
+                            a {
+                                position: relative;
+                                background: none;
+                                color: #000;
+                                text-decoration: none;
+                                &:hover {
+                                    color: blue;
+                                }
+                                &::before {
+                                    position  : absolute;
+                                    content   : "";
+                                    bottom    : 0;
+                                    right     : 50%;
+                                    width     : 0;
+                                    height    : 1px;
+                                    background: blue;
+                                    opacity   : 0;
+                                    transition: all 0.5s;
+                                }
+        
+                                &.active,
+                                &:hover {
+                                    color: blue;
+                                    &::before {
+                                        width  : 100%;
+                                        right  : 0;
+                                        opacity: 1;
+                                    }
+                                }
+                            }
+
+                             //sudu matro item gulo left e anar jonno.//
+                            // .list_item2 {
+                               
+                            //     top: 0px;
+                            //     left: 100%;
+                            //     &.Last {
+                            //         left: auto; 
+                            //         right: 100%;
+                            //     }
+                            // }
+                            
+                        
+                        }
+                    }
+
+                }
+
+                .buttonhed {
+                    color         : #fff;
+                    border-radius : 50px;
+                    padding       : 8px 45px;
+                    font-size     : 14px;
+                    border        : 1px solid #fff;
+                    text-transform: capitalize;
+                    &:hover {
+                        color     : #b72b58;
+                        background: #fff;
+                    }
+                }
+            }
+        }
+    }
+
+    &.fixedMenu {
+        background: #fff;
+        padding   : 10px 0;
+        box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
+        .navbar {
+            .collapse {
+                .navbar-nav {
+                    .nav-item {
+                        .nav-link {
+                            color: #000;
+                            &::before {
+                                background: #000;
+                            }
+                        }
+                    }
+                    .buttonhed {
+                        color         : #000;
+                        border-radius : 50px;
+                        padding       : 8px 45px;
+                        font-size     : 14px;
+                        border        : 1px solid #6a62e6;
+                        text-transform: capitalize;
+                        &:hover {
+                            color     : #fff;
+                            background: #6a62e6;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

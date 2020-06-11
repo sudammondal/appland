@@ -1,0 +1,547 @@
+@media(max-width: 1024px) {
+    .banner_worp2 {
+        .banner_mobil {
+            .seckend_itm {
+                top : 120px;
+                left: 175px;
+            }
+
+            .mobil_item {
+                .img_fast {
+                    max-width: 250px;
+                }
+            }
+
+            .thard {
+                top: 305px;
+            }
+
+            .forth {
+                top : 290px;
+                left: 200px;
+            }
+        }
+    }
+    .left_banner_icon {
+        &.left_flot {
+            float: right;
+        }
+    
+    }
+    .More_Awesome_Fature { 
+        .imgsid_mobil {
+            .imgdublmobl2 {
+                .pone_srcl2 {
+                    text-align: center;
+                    left: 0;
+                    bottom: -55px;
+                    .imgwid2 {
+                        max-width: 350px;
+                        margin-bottom: 0px;
+                    }
+                }
+                .pone_srcl { 
+                    left: 20px;
+                    bottom: 0;
+                    .imgwid {
+                        max-width: 400px;
+                    }
+                }
+            }
+        }
+        .more_icon_item {
+            margin-bottom: 15px;
+        }
+    }
+    .letst_updeet {
+        a {
+            .latest_hed2 {
+                font-size: 20px;
+            }
+        }
+        .letest_h_bner {
+            .latst_pra3 {
+                margin-bottom: 10px;
+            }
+        }
+        .img_updet {
+            margin-bottom: 30px;
+        }
+    }
+    .get_worp {
+        padding: 0 0 80px 0;
+
+        .appl_img {
+            .apimg {
+                width : 524px;
+                padding: 20px 0 220px 0;
+                margin-left: 40px;
+                margin: 65px 0 -600px 0;
+            }
+        }
+    }
+    .get_worp {
+        .get_pra {
+            max-width: 460px;
+        }
+    }
+   
+}
+
+// media for ipad pro 
+
+@media (max-width: 991px) {
+    .header  {
+        background: #fff;
+        padding: 10px 0;
+        box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
+    }
+    .navbar-nav {
+        margin-top: 20px;
+         
+    }
+    .header {
+        .navbar {
+            .collapse {
+                .navbar-nav {
+                    .nav-item {
+                        .nav-link {
+                            color: #000;
+                            margin-top: 20px;
+                            &.active,
+                            &:hover {
+                                color: #000;
+                            }
+                        }
+                    }
+                    .buttonhed {
+                        color: #000;
+                        border-radius: 50px;
+                        padding: 8px 45px;
+                        font-size: 14px;
+                        border: 1px solid #000;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+    }
+    .fast_banner_side {
+        .imgs1 {
+            margin-bottom: 100px;
+            .imgsc_convt {
+                position: static;
+                height  : auto;
+            }
+            .imgsc_convt2 {
+                height: auto;
+                margin: 0 auto;
+                top   : 0;
+                left  : 0;
+                right : 0;
+            }
+        }
+        .left_banner_icon {
+            max-width: initial;
+            margin-top: 0;
+            margin-bottom: 50px;
+        }
+    }
+    .banner_worp2 {
+        .banner_mobil {
+            margin: 0 0 569px 50px;
+        }
+    }
+    .More_Awesome_Fature {
+        .more_icon_item {
+            .icon_pra {
+                max-width: 100%;
+            }
+            .icon_items {
+                .list_item_cercl {
+                    margin: 30px auto;
+                }
+            }
+        }
+        .imgsid_mobil {
+            margin-bottom: 110px;
+            .imgdublmobl2 {
+                .pone_srcl {
+                    left: 170px;
+                    bottom: -50px;
+                }
+                .pone_srcl2 {
+                    text-align: center;
+                    left: 0;
+                    bottom: -55px;
+                }
+            }
+        }
+    }
+   
+    .letest_h_bner {
+        margin-bottom: 30px;
+    }
+    .get_worp {
+        
+        .appl_img {
+            margin: 0 auto;
+            .apimg {
+                margin-left: 40px;
+            }
+        }
+        .get_pra {
+            max-width: 100%;
+        }
+    }
+    ul{
+        &.main_list{
+            &.mb-0 {
+                text-align: center;
+            }
+        }
+    }
+    p{
+        &.t_pra{
+            &.m-0{
+                &.text-center {
+                    padding-bottom: 10px;
+                }
+            }
+        }
+    }
+    .img_updet {
+        text-align: center;
+    }
+    .letest_h_bner {
+        text-align: center;
+    }
+    .letst_updeet {
+        .letest_h_bner {
+            .latst_pra3 {
+                max-width: 100%;
+            }
+            .pand_detand_coment {
+                margin-top: 0px;
+            }
+        }
+    }
+    .icon_items {
+        text-align: center;
+    }
+    
+}
+
+//  media for ipad
+
+@media (max-width: 767px) {
+    .banner_worp2 {
+        background-image: none;
+        .hd_banner {
+            .hedrtTex {
+                font-size: 30px;
+            }
+        }
+        .btn_btun {
+            padding: 15px 30px;
+            padding: 14px 30px;
+            font-size: 14px;
+        }
+        .btn_btun2 {
+            font-size: 14px;
+        }
+    }
+    .icon_worp2 {
+        .castom_clas {
+            .icon_hedee {
+                font-size: 26px;
+            }
+        }
+    }
+    .fast_banner_side {
+        .hbannr_fast {
+            font-size: 26px;
+        }
+        .left_banner_icon {
+            .sid_hed {
+                font-size: 18px;
+            }
+        }
+    }
+    .res_add {
+        margin-top: 60px;
+    }
+    .More_Awesome_Fature {
+        .bannrhd_fast {
+            font-size: 30px;
+        }
+        .imgsid_mobil {
+            .imgdublmobl2 {
+                .pone_srcl {
+                    left: 65px;
+                    top: 0;
+                }
+                .pone_srcl2 {
+                    text-align: center;
+                    left: -20px;
+                    bottom: -55px;
+                }
+            }
+        }
+    }
+    .letst_updeet {
+        .lates_hedf {
+            font-size: 26px;
+        }
+        .letest_h_bner {
+            a {
+                .latest_hed2 {
+                    font-size: 22px;
+                }
+            }
+        }
+    }
+    .get_worp {
+        .hed_getup {
+            font-size: 30px;
+        }
+    }
+    .appland_info { 
+        text-align: center;
+        .aplien_item {
+            padding: 15px 0 15px 0;
+            margin-top: 20px;
+            .p_aplin {
+                max-width: 100%;
+            }
+            .icon_items {
+                display: initial;
+                margin-left: 10px;
+                .ctm_cl {
+                    margin-right: -10px !important;
+                    .img_aplin {
+                        .img_aplinss {
+                            height: auto;
+                        }
+                    }
+                }
+                .icon_pra {
+                    margin: 10px;
+                }
+            }
+        }
+    }
+}
+
+// media for mobile large
+
+@media (max-width: 420px) {
+    .banner_worp2 {
+        .hd_banner {
+            .hedrtTex {
+                font-size: 30px;
+            }
+            .btn_btun {
+                padding: 15px 30px;
+            }
+        }
+        .banner_mobil {
+            margin: 0 0 425px 50px;
+            .mobil_item {
+                .img_fast {
+                    max-width: 175px;
+                }
+            }
+            .seckend_itm {
+                top: 113px;
+                left: 117px;
+            }
+            .thard {
+                top: 240px;
+            }
+            .forth {
+                top: 237px;
+                left: 122px;
+            }
+        }
+    }
+    .More_Awesome_Fature {
+        .imgsid_mobil {
+            .imgdublmobl2 {
+                left: -42px;
+                top: 0px;
+                .pone_srcl2 {
+                    left: 30px;
+                    .imgwid2 {
+                        max-width: 350px;
+                    }
+                }
+                .pone_srcl {
+                    left: 35px;
+                    top: 0;
+                    .imgwid {
+                        max-width: 400px;
+                    }
+                }
+            }
+        }
+    }
+    .get_worp {
+        .appl_img {
+            .apimg {
+                width: 391px;
+                padding: 15px 50px 325px 0px;
+                margin: 0px 0 -600px 0;
+            }
+        }
+        .app-btn {
+            width: 168px;
+            height: 55px
+        }
+    }
+    
+    .appland_info {
+        text-align: center;
+        .aplien_item {
+            padding: 15px 0 15px 0;
+            margin-top: 20px;
+            .p_aplin {
+                max-width: 100%;
+            }
+            .icon_items {
+                display: initial;
+        
+            }
+            .icon_items {
+                .ctm_cl {
+                    margin-right: -10px !important;
+                }
+            }
+        }
+    }
+    .res_add {
+        margin-top: 60px;
+    }
+    .fast_banner_side {
+        .left_banner_icon {
+            margin-bottom: 100px;
+        }
+    }
+    footer .main_list .list_item {
+        padding-right: 20px;
+        margin-top: 10px;
+    }
+}   
+
+// media for mobile small
+@media (max-width: 375px) {
+    .banner_worp2 {
+        .banner_mobil {
+         margin: 40px 0 75px 20px;
+            .mobil_item {
+                position: sticky;
+                .img_fast {
+                    max-width: 279px;
+                }
+            }
+        }
+        .hd_banner {
+            .btn_btun {
+                margin-bottom: 20px;
+            }
+        }
+        
+    }
+    .More_Awesome_Fature {
+        .imgsid_mobil {
+            .imgdublmobl2 {
+                .pone_srcl {
+                    left: 60px;
+                    top: 0;
+                    .imgwid {
+                        max-width: 300px;
+                    }
+                }
+                .pone_srcl2 {
+                    .imgwid2 {
+                        max-width: 250px;
+                    }
+                }
+            }
+        }
+    }
+    .get_worp {
+        .app-btn {
+            width: 142px;
+            height: 48px;
+            img,
+            &.img_hid {
+                height: 30px;
+                vertical-align: sub;
+            }
+        }
+    }
+    footer {
+        .main_list {
+            .list_item {
+                padding-right: 15px;
+                margin-top: 10px;
+            }
+        }
+    }
+}
+@media (max-width: 320px) {
+    .banner_worp2 {
+        .banner_mobil {
+            margin: 40px 0 75px 0px;
+            .mobil_item {
+                position: sticky;
+                .img_fast {
+                    max-width: 279px;
+                }
+            }
+        }
+        .hd_banner {
+            .btn_btun {
+                padding: 14px 20px;
+            }
+        }
+    }
+    .More_Awesome_Fature {
+        .imgsid_mobil {
+            .imgdublmobl2 {
+                left: -65px;
+                top: 0px;
+                .pone_srcl {
+                    left: 63px;
+                    .imgwid {
+                        max-width: 300px;
+                    }
+                }
+                .pone_srcl2 {
+                    left: 45px;
+                    .imgwid2 {
+                        max-width: 250px;
+                    }
+                }
+            }
+        }
+    } 
+    .get_worp {
+        .appl_img {
+            .apimg {
+                width: 291px;
+                margin: 0px 0 -547px 0;
+            }
+        }
+        .app-btn {
+            width: 122px;
+            height: 50px;
+            img,
+            &.img_hid {
+                height: 25px;
+                vertical-align: sub;
+            }
+        }
+    }
+}

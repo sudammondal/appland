@@ -1,0 +1,84 @@
+.fast_banner_side {
+    
+    .hbannr_fast {
+        font-size: 36px;
+        font-weight: 700;
+        margin: 110px 0 10px 0;
+        font-family:'Quicksand', sans-serif;
+    }
+    .pbanne_fast {
+        font-size: 16px;
+        margin-bottom: 90px;
+        font-family:'Quicksand', sans-serif;
+    }
+    .left_banner_icon {
+       max-width: 350px;
+       margin-top: 160px;
+       margin-bottom: 200px;
+       .icon_item_side {
+            font-size: 60px;
+            color: red;
+        }
+        .sid_hed {
+            font-size: 20px;
+            line-height: 35px;
+            font-weight: 600;
+            margin: 40px 0 40px 0;
+            font-family:'Quicksand', sans-serif;
+        }
+        .side_para {
+            font-size: 16px;
+            color: #8b8b98;
+            font-family:'Quicksand', sans-serif;
+            margin-bottom: 45px;
+
+        }
+        .batun_lern {
+            position: relative;
+            font-size: 18px;
+            font-weight: 500;
+            text-decoration: none;
+            padding-bottom: 10px;
+            &::before {
+                position: absolute;
+                content: "";
+                bottom: 0;
+                right: 0;
+                width: 0%;
+                height: 2px;
+                background: #5d58f7;
+                opacity: 0;
+                transition: all 0.5s;
+            }   
+            &:hover {
+                color: #5d58f7;
+                &::before {
+                    width: 100%;
+                    right: auto;
+                    left: 0;
+                    opacity: 1;
+                }
+            }
+        }
+       
+
+    }
+    .left_flot {
+            float: right;
+        }
+    .imgs1 {
+        margin-bottom: 80px;
+        position: relative;
+        .imgsc_convt {
+            position: absolute;
+            height: 760px;
+        }
+        .imgsc_convt2 {
+            position: absolute;
+            height: 760px;
+            margin-left: 60px;
+        }
+        
+        
+    }
+}
