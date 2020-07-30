@@ -4,14 +4,12 @@
     background-position: center;
     background-size    : cover;
     min-height         : 725px;
-    // min-height         : 1025px;
     .hd_banner {
         .hedrtTex {
             margin-top: 160px;
             font-family: 'Quicksand', sans-serif;
             color      : #282835;
             font-size  : 60px;
-           
         }
         .praTex {
             font-size  : 18px;
@@ -38,7 +36,6 @@
                 color     : #5d58f7;
                 box-shadow: 0px 0px 8px 6px #d3d8dc96;
             }
-
         }
         .btn_btun2 { 
             position: relative;
@@ -84,31 +81,22 @@
             .img_fast {
                 max-width:312px;
                 height: auto;
-            }
+            }       
         }
         .seckend_itm {
             position: absolute;
             top: 120px;
             left: 215px;
-            // .img_secknd {
-            //      max-width:300px;
-            // }
         }
         .thard {
             position: absolute;
             top: 345px;
             left: -10px;
-            // .img_thard {
-            //     max-width:300px;
-            // }
         }
         .forth {
             position: absolute;
             top: 325px;
             left: 245px;
-            // .img_forth {
-            //     max-width:300px;
-            // }
         }
     }
-}
+} 

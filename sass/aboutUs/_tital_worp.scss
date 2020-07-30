@@ -1,0 +1,83 @@
+.card_title {
+    .card-group {
+        margin: 105px 0;
+        .card {
+            border-radius: 0;
+            margin :15px;
+            transition: all 0.5s;
+            border: 1px solid #b5b5b540;
+            .img_overflo {
+                overflow: hidden;
+                .card-img-top {
+                border-radius: 0;
+                transition: all 0.5s;
+                }
+            }
+            .card-body {
+                padding: 18px 10px 0;
+                .card-title {
+                    font-family:'Quicksand', sans-serif;
+                    font-weight: 600;
+                    margin: 7px 0 6px;
+                    font-size: 20px;
+
+                }
+                .card-text {
+                    max-width: 255px;
+                    margin: 25px auto;
+                    color: #9d9da8;
+                    font-size: 16px;
+                    font-family:'Quicksand', sans-serif;
+                    .text-muted {
+                        font-size: 16px;
+                        font-family:'Quicksand', sans-serif;
+                        text-transform: uppercase;
+                        line-height: 18px;
+                        color: #9d9da8;
+                    }
+                }  
+            }
+            .iconSS {
+                margin: 0 10px 10px 10px;
+                .iconft {
+                    margin-bottom: 10px;
+                    height: 40px;
+                    width: 40px;
+                    text-align: center;
+                    padding-top: 8px;
+                    font-size: 20px;
+                    border-radius: 1px;
+                    color: #000;
+                    margin: 0 5px 10px 0;
+                    &:hover {
+                        &.fa-facebook {
+                            color:#4267b2;
+                        }
+                        &.fa-twitter {
+                            color:#2aa9e0;
+                        }
+                        &.fa-behance {
+                            color:#0076b5;
+                        }
+                        &.fa-linkedin {
+                            color:#0076b5;
+                        }
+                    }
+                }
+                a {
+                    &:hover {
+                        text-decoration: none;
+                    }
+                    text-decoration: none;
+                }
+            }
+            &:hover {
+                box-shadow: 0 0px 20px #b5b5b5e8;
+                border: 1px solid transparent;
+                .card-img-top {
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}

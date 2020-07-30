@@ -1,0 +1,175 @@
+@media(max-width: 1024px) {
+    .disover_worp {
+        .castom_cont {
+            .disover_aop {
+                padding: 125px 88px 125px 100px;
+                margin: 87px -15px 0px -225px;
+            }
+        }
+    }
+}
+
+// media for ipad pro 
+
+@media (max-width: 991px) {
+    .disover_worp {
+        .castom_cont {
+            padding: 0px 15px;
+            .disover_aop {
+                padding: 35px;
+                margin: 20px;
+                border-top-right-radius: 10px;
+                border-bottom-right-radius: 10px;
+            }
+        }
+    }
+}
+
+//  media for ipad
+
+@media (max-width: 767px) {
+    .banner_worp {
+        .banner_item {
+            .h_ban {
+                font-size: 45px;
+            }
+            .bn_pra {
+                font-size: 20px;
+            }
+        }
+    }
+    
+    .icon_worp22 {
+        .castom_clas2 {
+            .icon_hedee {
+                font-size: 30px;
+                margin-top: 100px;
+            }
+        }
+    }
+    .disover_worp {
+        .castom_cont {
+            .disover_aop {
+                .disover_hed {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    .testmonials_worp {
+        .testmonials_hed {
+            font-size: 30px;
+        }
+        .testmonials_slied {
+            .main_slieda_ttstmonials {
+                .test_slid_items {
+                    .slid_pra2 {
+                        letter-spacing: 0.8px;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+    
+    .card_title {
+        .card-group {
+            .card {
+                .card-body {
+                    .card-text {
+                        font-size: 14px;
+                        .text-muted {
+                            font-size: 14px;
+                        }
+                    }
+                    .card-title {
+                        font-size: 20px;
+                    }
+                }
+                .iconSS {
+                    .iconft {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// media for mobile large
+
+@media (max-width: 420px) {
+    
+    .banner_worp {
+        .banner_item {
+            .h_ban {
+                font-size: 40px;
+            }
+            .bn_pra {
+                font-size: 16px;
+                padding-bottom: 100px;
+            }
+        }
+    }
+    .icon_worp22 { 
+        padding: 75px 0;
+        .castom_clas2 {
+            .icon_hedee {
+                margin-top: 20px;
+            }
+            .icon_hedee {
+                font-size: 30px;
+            }
+            .icon_para {
+                font-size: 14px;
+            }
+        }
+    }
+    ul{
+        &.icon_item {
+            &.text-center {
+                margin-bottom: 50px;
+            } 
+        }
+    }
+    .testmonials_worp {
+        .testmonials_slied {
+            .main_slieda_ttstmonials {
+                .test_slid_items {
+                    .slid_pra2 {
+                        font-size: 16px;
+                        letter-spacing: 0.8px;
+                    }
+                }
+            }
+        }
+    }
+    .team_WORP {
+        .team_hed {
+            margin: 50px 0 10px 0px;
+            font-size: 30px;
+        }
+    }
+    .slied_worp_hed {
+        .slied_hed {
+            font-size: 30px;
+        }
+    }
+
+}
+    
+// media for mobile small
+
+@media (max-width: 375px) {
+    
+    
+    
+}
+
+// media for mobile xtra-small
+
+@media (max-width: 320px) {
+    
+
+    
+}

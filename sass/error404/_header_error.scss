@@ -1,0 +1,238 @@
+.header_err {
+    padding   : 20px 0;
+    position  : fixed;
+    top       : 0;
+    left      : 0;
+    width     : 100%;
+    transition: all 0.5s;
+    z-index   : 1080;
+    .navbar {
+        position: relative;
+        .imglogohed {
+            border       : 1px solid #fff;
+            padding      : 10px;
+            border-radius: 50px;
+            background   : #fff;
+            box-shadow   : 0px 0px 8px 6px #d3d8dc96;
+        }
+        .imglogo2 {
+            position: absolute;
+            top: 14px;
+            left: 17px;
+        }
+
+        .hedr_collapse {
+            .navbar-nav {
+                .nav-item {
+                    .nav-link {
+                        position       : relative;
+                        font-size      : 14px;
+                        margin-right   : 55px;
+                        border-bottom  : 1px solid transparent;
+                        text-decoration: none;
+                        padding        : 7px 0px 0px 0px;
+                        color          : #000;
+                        transition     : all 0.5s;
+                        &::before {
+                            position  : absolute;
+                            content   : "";
+                            bottom    : 0;
+                            right     : 50%;
+                            width     : 0;
+                            height    : 1px;
+                            background: #000;
+                            opacity   : 0;
+                            transition: all 0.5s;
+                        }
+
+                        &.active,
+                        &:hover {
+                            color: blue;
+                            &::before {
+                                width  : 100%;
+                                right  : 0;
+                                opacity: 1;
+                                background: blue;
+                            }
+                        }
+                    }
+                    position: relative;
+                    a {
+                        color: blue;
+                        &:hover,
+                        &.active {
+                            color: #000000;
+                            background: none;
+
+                        }
+
+                    }
+                
+                    &:hover > {
+                        .navbar-nav {
+                            visibility: visible;
+                            top: 48px;
+                            opacity: 1;
+                            padding: 10px 10px;
+                        }
+                    }
+                    .navbar-nav {
+                        display: block;
+                        visibility: hidden;
+                        top: 58px;
+                        left: 0;
+                        opacity: 0;
+                        transition: all 0.5s;
+                        border-radius: 0;
+                        padding: 10px 10px;
+                        overflow: hidden;
+                        
+                        
+                        li {
+                            margin: 5px 0;
+                            
+                            a {
+                                position: relative;
+                                background: none;
+                                color: #000;
+                                text-decoration: none;
+                                &::before {
+                                    position  : absolute;
+                                    content   : "";
+                                    bottom    : 0;
+                                    right     : 50%;
+                                    width     : 0;
+                                    height    : 1px;
+                                    background: blue;
+                                    opacity   : 0;
+                                    transition: all 0.5s;
+                                }
+                                &.active,
+                                &:hover {
+                                    color: blue;
+                                    &::before {
+                                        width  : 100%;
+                                        right  : 0;
+                                        opacity: 1;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .buttonhed {
+                    color         : #000;
+                    border-radius : 50px;
+                    padding       : 8px 45px;
+                    font-size     : 14px;
+                    border        : 1px solid blue;
+                    text-transform: capitalize;
+                    &:hover {
+                        color     : #fff;
+                        background : blue;
+                        border        : 1px solid blue;
+
+                    }
+                }
+            }
+        }
+        button,
+        &.nav_toggler {
+            outline: none;
+            border: 0;
+            position: relative;
+            .navbar_icon {
+                margin-right: -15px;
+                .itm_sss {
+                    display: block;
+                }
+                .cros_manu { 
+                   .cros_item {
+                        display: block;
+                        height: 40px;
+                    }
+                }
+                .itm_sss {
+                    width: 27px;
+                    padding: 2px;
+                    margin: 6px 0;
+                    background-color: #000;
+                    border-radius: 10px;
+                }
+                .cros_manu {
+                    .cros_item::before,
+                    ::after {
+                        width: 4px;
+                        background: #000;
+                        content: "";
+                        position: absolute;
+                        top: 20%;
+                        left: 50%;
+                        bottom: 20%;
+                        border-radius: 5px;
+                        
+                    }
+                    .cros_item::before {
+                        transform: rotate(45deg);
+                    }
+                    .cros_item::after  {
+                        transform: rotate(-45deg);
+                    }
+                }
+                
+            }
+            &[aria-expanded="true"] {
+                transition:  all 0.5s;
+                .navbar_icon {
+                    .itm_sss {display: none;}
+                    .cros_manu {
+                        display: block;
+                    }
+                }
+            }
+            &[aria-expanded="false"] {
+                .navbar_icon {
+                    .itm_sss {display: block;}
+                    .cros_manu {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        
+        
+    }
+    &.fixedMenu {
+        background: #fff;
+        padding   : 15px 0;
+        box-shadow: 0px 4px 6px 0px rgba(12, 0, 46, 0.06);
+        .navbar {
+            .hedr_collapse {
+                .navbar-nav {
+                    .nav-item {
+                        .nav-link {
+                            color: blue;
+                            &::before {
+                                background: blue;
+                            }
+                        }
+                    }
+                    .buttonhed {
+                        color         : blue;
+                        border-radius : 50px;
+                        padding       : 8px 45px;
+                        font-size     : 14px;
+                        border        : 1px solid #6a62e6;
+                        text-transform: capitalize;
+                        &:hover {
+                            color     : #fff;
+                            background: blue;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

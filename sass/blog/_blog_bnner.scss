@@ -1,0 +1,25 @@
+.blog_banar {
+    background-image: url(../imgs/blog_backgrund.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 530px;
+    .blog_itme {
+        text-align: center;
+        margin: 240px 0 0 0;
+        .h_ban {
+            text-transform: uppercase;
+            color: #fff;
+            font-size: 55px;
+            font-weight: 700;
+            margin: 0px 0 18px 0;
+        }
+        .bn_pra {
+            font-size: 24px;
+            color: #fff;
+            padding-bottom: 25px;
+
+        }
+    }
+}

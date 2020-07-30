@@ -1,0 +1,95 @@
+.blog_banar_error {
+    background-image: url(../../imgs/count_424_bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+    .error_itme {
+        text-align: center;
+        margin: 200px 0 0 0;
+        .h_integr {
+            font-size: 300px;
+            font-weight: 700;
+            color: #6f5cd6;
+            margin: 0px 0 30px 0;
+            font-family:'Quicksand', ;
+            text-shadow: 15px 15px 3px #00000038;
+        }
+        .h_ban {
+            color: rgb(78, 76, 202);
+            font-size: 52px;
+            font-weight: 700;
+            margin: 0px 0 18px 0;
+        }
+        .bn_pra {
+            font-size: 22px;
+            color: #a0a3a8;
+            padding-bottom: 25px;
+        }
+    }
+    .sarch_worp {
+        .search_main {
+            display: block;
+            .search_box {
+                padding: 34px 0;
+                border-radius: 50px;
+                height: 62px;
+                
+                position: relative;
+                border: 1px solid #5555554f;
+                overflow: hidden;
+                .sarc_input {
+                    border: none;
+                    border-radius: 0;
+                    padding: 24px 25px;
+                    font-size: 18px;
+                    text-transform: capitalize;
+                    max-width: 75%;
+                    box-shadow: none;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    background: none;
+                }
+                .sarch_list {
+                    list-style: none;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    .list_item_sarc {
+                        padding: 22px 43px;
+                        display: inline-block;
+                        border-radius: 50px;
+                        background: #4a80f9;
+                        color: #fff;
+                        
+                    }
+                }
+            }
+            
+        }
+        
+    }
+    .search_main2 {
+        margin-bottom: 150px;
+        .hom_butn {
+            padding: 22px 38px;
+            display: inline-block;
+            border-radius: 50px;
+            background: transparent;
+            box-shadow: none;
+            border: 0;
+            color: #6f5cd6;
+            text-transform: uppercase;
+            margin-left: 20px;
+            transition: all 0.5s;
+            border: 1px solid #6f5cd6;
+            &:hover {
+                color: #fff;
+                background: #6f5cd6;
+                border: 1px solid #6f5cd6;
+            }
+        }
+    }
+}

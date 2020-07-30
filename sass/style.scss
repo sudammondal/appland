@@ -1,7 +1,7 @@
+// main home page
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,500&display=swap');
 @import "./main/global";
 @import "./main/appland_info";
-@import "./main/modal";
 @import "./main/home_heder";
 @import "./main/h_banner";
 @import "./main/icon_worp_2";
@@ -14,6 +14,39 @@
 @import "./main/slid_worp_contac";  
 @import "./main/footer";
 
+// about section only
 
-// responsive style only  
+@import "./aboutUs/about_banner";
+@import "./aboutUs/disover_worp";
+@import "./aboutUs/testmonials";
+@import "./aboutUs/our_term";
+@import "./aboutUs/tital_worp";
+@import "./aboutUs/exclosive_worp";
+
+
+//error worp only
+
+@import "./error404/errorworp";
+@import "./error404/header_error";
+
+
+//contac worp only
+
+@import "./contac/cocal_icon_box";
+@import "./contac/submet_worp";
+@import "./contac/location_worp";
+
+//blog media worp only
+@import "./blog/blog_bnner";
+@import "./blog/blog2";
+@import "./blog/blog";
+
+
+
+// responsive style only    
+
+@import "./aboutUs/responsive";
 @import "./main/responsive";
+@import "./error404/responsive";
+@import "./contac/resopnsive";
+@import "./blog/responsive_blog2";

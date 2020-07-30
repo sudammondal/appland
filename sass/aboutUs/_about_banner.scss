@@ -1,0 +1,24 @@
+.banner_worp {
+    background-image: url(../imgs/bannner_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+    .banner_item {
+        text-align: center;
+        margin: 240px 0 0 0;
+        .h_ban {
+            color: #fff;
+            font-size: 55px;
+            font-weight: 700;
+            margin: 0px 0 18px 0;
+        }
+        .bn_pra {
+            font-size: 24px;
+            color: #fff;
+            padding-bottom: 174px;
+            
+        }
+    }
+}

@@ -1,4 +1,4 @@
-.icon_worp2 {
+.icon_worp2 { 
     background-image: url(../imgs/2banner-2.png);
     background-repeat  : no-repeat;
     background-position: center;
@@ -35,12 +35,16 @@
                 align-items: center;
                 justify-content: center;
                 margin: 0 auto;
+                position: relative;
                 .ancor {
                     font-size: 36px;
                     color: blue;
+                    position: absolute;
+                    top: 40%;
+                    left: 40%;
                 }
             }
-            .imgbaner {
+            .imgbaner1 {
                 background-image: url(../imgs/icon_balnner_1.png);
             }
             .imgbaner2 {
@@ -70,7 +74,6 @@
                 border-bottom: 1px solid transparent;
                 transition: all 0.5s;
                 padding-bottom: 5px;
-                
             }
             a {
                 .fa-long-arrow-right {
@@ -84,7 +87,6 @@
                     padding-left: 15px;
                     margin-right: -15px;
                     color: #0056b3;
-                    
                     }
                 }
             }
@@ -155,7 +157,6 @@
                 border-bottom: 1px solid transparent;
                 transition: all 0.5s;
                 padding-bottom: 5px;
-                
             }
             a {
                 .fa-long-arrow-right {
